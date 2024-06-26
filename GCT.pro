@@ -22,5 +22,4 @@ HEADERS  += mainwindow.h \
     waterprogressbar1.h
 
 FORMS    += mainwindow.ui \
-    dashboard1.ui \
     waterprogressbar1.ui

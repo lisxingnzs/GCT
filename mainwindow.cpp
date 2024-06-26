@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -6,14 +6,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-//    Dashboard1 *DashBoard1 = new Dashboard1();
-//    DashBoard1->setMaxValue(20);
-//    DashBoard1->show();
-//   ui->widget->setMaxValue(100);
-
-    WaterProgressBar1 *WaterProgressBar1s = new WaterProgressBar1();
-    WaterProgressBar1s->show();
-
 }
 
 MainWindow::~MainWindow()
